@@ -1,1 +1,5 @@
-matplotlib
+Flask==2.3.2                 # For the web server
+joblib==1.3.2                # For loading the model and vectorizer
+scikit-learn==1.3.0          # For TfidfVectorizer and the saved model
+nltk==3.8.1                  # If you use any preprocessing or stopword functionality
+requests==2.31.0             # For testing the Flask app (optional, but useful)
